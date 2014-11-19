@@ -1,6 +1,6 @@
 import re
 import ast
-from setuptools import setup
+from setuptools import setup, find_packages
 from setuptools.command.test import test as TestCommand
 
 
@@ -29,7 +29,7 @@ setup(
     author_email='gmflanagan@outlook.com',
     version=version,
     url='http://github.com/averagehuman/click-termui',
-    packages=['termui'],
+    packages=find_packages(),
     description='Terminal interaction utiilities',
     classifiers=[
         'License :: OSI Approved :: BSD License',
