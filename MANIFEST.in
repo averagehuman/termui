@@ -1,0 +1,8 @@
+
+include makefile
+include tox.ini
+include LICENSE
+include README
+recursive-include tests *
+
+
