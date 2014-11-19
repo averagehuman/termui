@@ -34,7 +34,7 @@ __all__ = [
     'getchar', 'pause',
 
     # Exceptions
-    'TermUIException', 'TermUIUsageError',
+    'TermUIException', 'UsageError', 'BadParameter', 'FileError', 'Abort',
 
 ]
 
