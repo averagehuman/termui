@@ -2,7 +2,7 @@
 include makefile
 include tox.ini
 include LICENSE
-include README
+include README.md
 recursive-include tests *
 
 
