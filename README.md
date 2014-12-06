@@ -1,9 +1,11 @@
 
-# termui
+termui
+======
 
 Terminal utilities for command line programs.
 
-## Attribution
+Attribution
+-----------
 
 Entirely extracted from [click](http://click.pocoo.org/) with minor tweaks.
 
